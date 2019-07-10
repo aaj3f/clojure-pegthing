@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="993ccbbc-d9a3-4862-8538-d2fc68069f5a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/project.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pegthing/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/pegthing/core.clj" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pegthing/core.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="858">
+              <caret line="283" column="33" selection-start-line="283" selection-start-column="33" selection-end-line="283" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -35,6 +44,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/project.clj" />
+        <option value="$PROJECT_DIR$/src/pegthing/core.clj" />
       </list>
     </option>
   </component>
@@ -51,9 +61,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -68,6 +78,17 @@
               <item name="pegthing" type="b2602c69:ProjectViewProjectNode" />
               <item name="pegthing" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pegthing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pegthing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pegthing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pegthing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pegthing" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -76,6 +97,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -84,7 +106,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="ReplState" timestamp="1562759911652">{:repl-history {:ide [], :local [], :remote []}}</component>
+  <component name="ReplState" timestamp="1562778004004">{:repl-history {:ide [], :local [{:command &quot;(cons 1 (lazy-seq [2 3]))&quot;, :offset 22, :ns &quot;pegthing.core&quot;} {:command &quot;(doc take-while)&quot;, :offset 15, :ns &quot;pegthing.core&quot;} {:command &quot;(take-while #(&gt;= % 3) [1 2 3 4 5 6 7])&quot;, :offset 36, :ns &quot;pegthing.core&quot;} {:command &quot;(take-while #(&lt;= % 3) [1 2 3 4 5 6 7])&quot;, :offset 15, :ns &quot;pegthing.core&quot;} {:command &quot;(take-while #(&gt; 6 %) tri)&quot;, :offset 24, :ns &quot;pegthing.core&quot;} {:command &quot;(take-while #(&gt;= 6 %) tri)&quot;, :offset 16, :ns &quot;pegthing.core&quot;} {:command &quot;(take-while #(&gt;= 10 %) tri)&quot;, :offset 19, :ns &quot;pegthing.core&quot;} {:command &quot;(take-while #(&gt;= 7 %) tri)&quot;, :offset 18, :ns &quot;pegthing.core&quot;} {:command &quot;(take-while #(&gt; 7 %) tri)&quot;, :offset 15, :ns &quot;pegthing.core&quot;} {:command &quot;(assoc-in [:first-key :second-key :third-key] \&quot;value for third key\&quot;)&quot;, :offset 66, :ns &quot;pegthing.core&quot;} {:command &quot;(assoc-in {} [:first-key :second-key :third-key] \&quot;value for third key\&quot;)&quot;, :offset 12, :ns &quot;pegthing.core&quot;} {:command &quot;(doc not-empty)&quot;, :offset 14, :ns &quot;pegthing.core&quot;} {:command &quot;(comp inc +)&quot;, :offset 11, :ns &quot;pegthing.core&quot;} {:command &quot;((comp inc +) [1 2])&quot;, :offset 18, :ns &quot;pegthing.core&quot;} {:command &quot;((comp inc +) 1 2)&quot;, :offset 17, :ns &quot;pegthing.core&quot;} {:command &quot;(char 98)&quot;, :offset 8, :ns &quot;pegthing.core&quot;} {:command &quot;(str (char 98))&quot;, :offset 5, :ns &quot;pegthing.core&quot;} {:command &quot;(take 3 (repeat \&quot; \&quot;))&quot;, :offset 18, :ns &quot;pegthing.core&quot;} {:command &quot;(apply str (take 3 (repeat \&quot; \&quot;)))&quot;, :offset 29, :ns &quot;pegthing.core&quot;} {:command &quot;(doc apply)&quot;, :offset 10, :ns &quot;pegthing.core&quot;} {:command &quot;(str (take 3 (repeat \&quot; \&quot;)))&quot;, :offset 23, :ns &quot;pegthing.core&quot;} {:command &quot;(first (str (take 3 (repeat \&quot; \&quot;))))&quot;, :offset 30, :ns &quot;pegthing.core&quot;} {:command &quot;(true? -1)&quot;, :offset 9, :ns &quot;pegthing.core&quot;} {:command &quot;(true? 0)&quot;, :offset 8, :ns &quot;pegthing.core&quot;} {:command &quot;(row-positions 1)&quot;, :offset 16, :ns &quot;pegthing.core&quot;} {:command &quot;(dec 1)&quot;, :offset 6, :ns &quot;pegthing.core&quot;} {:command &quot;(row-tri 0)&quot;, :offset 10, :ns &quot;pegthing.core&quot;} {:command &quot;(or nil 0)&quot;, :offset 9, :ns &quot;pegthing.core&quot;} {:command &quot;(doc or)&quot;, :offset 7, :ns &quot;pegthing.core&quot;} {:command &quot;(or nil 1)&quot;, :offset 9, :ns &quot;pegthing.core&quot;} {:command &quot;(or nil false)&quot;, :offset 13, :ns &quot;pegthing.core&quot;} {:command &quot;(or nil nil)&quot;, :offset 11, :ns &quot;pegthing.core&quot;} {:command &quot;(range 1 2)&quot;, :offset 10, :ns &quot;pegthing.core&quot;} {:command &quot;(doc nth)&quot;, :offset 8, :ns &quot;pegthing.core&quot;} {:command &quot;(nth [1 2 3] 0)&quot;, :offset 14, :ns &quot;pegthing.core&quot;} {:command &quot;letters&quot;, :offset 7, :ns &quot;pegthing.core&quot;} {:command &quot;(doc doseq)&quot;, :offset 10, :ns &quot;pegthing.core&quot;} {:command &quot;(int \&quot;a\&quot;)&quot;, :offset 7, :ns &quot;pegthing.core&quot;} {:command &quot;(first \&quot;a\&quot;)&quot;, :offset 9, :ns &quot;pegthing.core&quot;} {:command &quot;(doc re-seq)&quot;, :offset 11, :ns &quot;pegthing.core&quot;} {:command &quot;(attr :intelligence)&quot;, :offset 19, :ns &quot;pegthing.core&quot;} {:command &quot;(attr :strength)&quot;, :offset 15, :ns &quot;pegthing.core&quot;} {:command &quot;((my-comp inc +) [1 2])&quot;, :offset 21, :ns &quot;pegthing.core&quot;} {:command &quot;((my-comp inc +) 1 2)&quot;, :offset 20, :ns &quot;pegthing.core&quot;} {:command &quot;(doc assoc-in)&quot;, :offset 13, :ns &quot;pegthing.core&quot;} {:command &quot;(if true)&quot;, :offset 8, :ns &quot;pegthing.core&quot;} {:command &quot;(if true\n  (\&quot;this is true\&quot;)\n  (\&quot;this won't happen\&quot;))&quot;, :offset 49, :ns &quot;pegthing.core&quot;} {:command &quot;(if true\n  (println \&quot;this is true\&quot;)\n  (println \&quot;this won't happen\&quot;))&quot;, :offset 47, :ns &quot;pegthing.core&quot;} {:command &quot;(doc assoc)&quot;, :offset 10, :ns &quot;pegthing.core&quot;} {:command &quot;(doc get)&quot;, :offset 8, :ns &quot;pegthing.core&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -143,15 +165,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562685978986</updated>
-      <workItem from="1562685993961" duration="1048000" />
+      <workItem from="1562685993961" duration="7654000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1048000" />
+    <option name="totallyTimeSpent" value="7654000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -191,8 +214,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/project.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pegthing/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="283" column="33" selection-start-line="283" selection-start-column="33" selection-end-line="283" selection-end-column="33" />
         </state>
       </provider>
     </entry>

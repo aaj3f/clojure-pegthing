@@ -255,7 +255,35 @@
         board (new-board rows)]
     (prompt-empty-peg board)))
 
+(def character
+  {:name "Smooches McCutes"
+   :attributes {:intelligence 10
+                :strength 4
+                :dexterity 5}})
+(def c-int (comp :intelligence :attributes))
+(def c-str (comp :strength :attributes))
+(def c-dex (comp :dexterity :attributes))
+
+(defn attr
+  [attribute]
+  ((comp attribute :attributes) character))
+
+(defn my-comp
+  ([f] f)
+  ([f & fns]
+    (fn [& args] (f (apply (apply my-comp fns) args)))))
+
+(defn my-assoc-in
+  [m [k & ks] v]
+  (loop [map m
+         key k
+         keys ks
+         value v]
+    (if (empty? keys)
+      (assoc map key value)
+      (assoc map key (my-assoc-in (get map key {}) keys value)))))
+
 (defn -main
-  [& args]
-  (println "Get ready to play peg thing!")
-  (prompt-rows))
+    [& args]
+    (println "Get ready to play peg thing!")
+    (prompt-rows))
